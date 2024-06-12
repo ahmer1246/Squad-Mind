@@ -1,0 +1,27 @@
+.sideNav{
+    display: flex;
+    justify-content: center;
+    background-color: #475569;
+    min-height: 100vh;
+}
+.sideNav-content{
+    margin-top: 20px;
+    display:flex ;
+    flex-direction: column;
+    gap: 15px;
+}
+.sideNav-content button{
+    background-color: tomato;
+    color: white;
+    padding: 10px;
+    border: none;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.sideNav-content button:hover{
+    background-color: black;
+    color: tomato;
+    transition: 0.5s;
+}

@@ -1,0 +1,10 @@
+.header-container{
+background-color: tomato;
+
+padding: 10px 0px;
+height: 80px;
+display: flex;
+align-items: center;
+justify-content: center;
+color: white;
+}
